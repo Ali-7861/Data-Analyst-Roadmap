@@ -89,3 +89,8 @@ To ensure 100% data integrity before database ingestion, a comprehensive manual 
 ![East Region Bookcases Loss Proof](02-SQL/02_East_region_Bookcases_LOSS.png)
 
 **Business INSIGHT:** East region Bookcases have negative profit margin due to high shipping/cost or low pricing. Requires pricing strategy and cost optimization.
+### 🔗 Query 3: Advanced Regional Ranking via Window Functions
+*   **Technical Execution:** Engineered an advanced relational script using `DENSE_RANK() OVER (PARTITION BY Region ORDER BY SUM(Profit) ASC)` to dynamically reset performance ranking loops across geographic boundaries.
+*   **The Diagnostic Insight:** Isolated **Bookcases** as the single heaviest financial anchor in the **East Region**, ranking **#1 in net losses** with a structural deficit of **-1,665.05**.
+*   **🎯 Executive Business Action:** Recommendation for immediate operational pivot—terminate low-margin clearance discounts on furniture variables in the East, increase minimum order thresholds for oversized freight items, and reallocate supply chain capital to the high-margin West region (14.3% margin baseline).
+*
