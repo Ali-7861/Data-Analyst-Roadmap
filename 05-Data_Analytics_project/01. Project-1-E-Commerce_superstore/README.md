@@ -72,3 +72,18 @@ To ensure 100% data integrity before database ingestion, a comprehensive manual 
 
 > **Business Decision:** the region is eroding company profit by 14.84%. this indicates an immediate audit is required for discount strategy and shipping cost
 ![Day 3 Proof - Region Profitability](02-SQL/01_region_profit_loss_proof.png)
+
+
+# Day 4/project -1/E-Commerce_superstore_sales
+## Objective : To Identify Loss-making sub-categories in the east region.
+
+### SQL LOGIC USED: 
+ -Filtered data for Region = 'East'
+ -Aggregated sales and profit using SUM()
+ -Grouped By sub-catogory to get granular profitability
+
+ #### KEY FINDING :
+ - Bookcases in East region is in loss : sales = 3083.43, profit = -1665.05
+ - Proof:  02-SQL/ 02_East_region_Bookcases_LOSS.png
+
+ Business INSIGHT: East region Bookcases have negative profit   margin due to high shipping/cost or low pricing. require pricing strategy  and cost optimization
