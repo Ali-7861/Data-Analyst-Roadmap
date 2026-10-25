@@ -60,7 +60,7 @@ To ensure 100% data integrity before database ingestion, a comprehensive manual 
 ### ✅ Phase 2: SQL Business Analysis (Day 3 - COMPLETED)
 
 #### Day 3 Finding: Which Region is in Loss?
-**Business Question:** Which region of E-Commerce is suffocating Loss?
+**Business Question:** Which region of E-Commerce is Incurring Maximum Loss?
 
 **Proof Executed:** `02-SQL/01_region_profit_loss_proof.png`
 
